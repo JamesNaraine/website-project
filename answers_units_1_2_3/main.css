@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}*
+.dark,
+.dark * {
+    background-color: black;
+    color: white;
+}
+.switch {
+    align-self: flex-end;
+    margin: 0.9375rem;
+}
+.inner-switch {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 1.25rem;
+    width: 3.125rem;
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+.aboutme {
+    font: 12px;
+    color: black;
+
+}
+
+.background-img{
+    background: url(background_alt1.jpg);
+}
+
+
+.padding{
+    padding: 10px 10px 10px 10px;
+    box-align: "left";
+}
+.large{
+    font: 45px;
+}
+.medium{
+    font: 30px;
+}
+
+#photoself {
+    float:left;
+    border-radius: 200px;
+    margin: 0 0 0 15px;
+}
+.container {
+   display: flex;
+
+
+}
+.container a:hover {
+    color:black;
+    background-color: white;
+  }
+
+
+.box {
+    color:black;
+    border-radius: 15px 30px;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 10px 10PX 10px;
+
+}
+
+
+  
+  .box1 { background:#ff3fdf65;background-color:#ff3fdf65; }
+  .box2 { background:#fd232365;background-color:#fd232365; }
+  .box3 { background:#f8760c83;background-color:#f8760c83; }
+  .box4 { background:#ff5c7765;background-color:#ff5c7765; }
+  .box5 { background:#f1c40f65;background-color:#f1c40f65; }
+  .box6 { background:#e67e2265;background-color:#e67e2265; }
+  .box7 { background:#2ed57465;background-color:#2ed57465; }
+  .box8 { background:#1e90ff4b;background-color:#1e90ff4b; }
+  .box9 { background:#c56cf04b;background-color:#c56cf04b; }
+  .box10 { background:#18dcff4b;background-color:#18dcff4b; }
+
+
+  
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }

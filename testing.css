@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* targets whole page */
+
+*{
+    font-family: 'Roboto', sans-serif;
+    background-color: grey;
+}*
+
+
+/* formatting */
+h1 {
+
+    font-size: 12 px;
+    padding: 50px;
+    margin: 85 px;
+
+}
+/* group selectors */
+h1, h2, p{
+    color: violet
+
+}
+
+/* class selectors */
+
+.aboutme{
+    color: white;
+}
+
+.makemered {
+    color: red;
+}
+.center {
+    text-align: center;
+}
+
+.large {
+    font-size: 75 px;
+}
+
+
+.rgbvalues{
+    color: rgb (255,99,71, 1.0)
+}
+
